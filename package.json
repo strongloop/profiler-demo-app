@@ -17,5 +17,9 @@
   },
   "optionalDependencies": {
     "loopback-explorer": "^1.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/strongloop/profiler-demo-app.git"
   }
 }
