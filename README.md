@@ -73,27 +73,3 @@ Memory Profiling for more details on heap  profiling data.
 Note: Do not leave the app running for too long. Kill the app, once you 
 generate the graphs. The app is meant to leak objects and consumes a lot of CPU.
 
-
-##### Standalone scripts to try CPU and HEAP Profiling
-
-burnCPU.js is a standalone script to try out CPU profiling. 
-The script runs some complex math operations and burns CPU.
- 
-    $ slc run --cluster <n> burnCPU.js
-
-For On-premises CPU profiling,
-  see http://docs.strongloop.com/display/SLA/CPU+Profiling
-
-For hosted CPU profiling,
-  see http://docs.strongloop.com/display/SLA/StrongOps+CPU+profiling
-
-leakObjects.js is a standalone script to try out HEAP profiling.
-The script adds an object to a list and show the object count increasing.
-
-    $ slc run --cluster <n> leakObjects.js
-
-For On-premises Heap profiling,
-  see http://docs.strongloop.com/display/SLA/Heap+profiling+and+object+tracking
-
-For hosted Heap profiling,
-  see http://docs.strongloop.com/display/SLA/Heap+memory+profiling
