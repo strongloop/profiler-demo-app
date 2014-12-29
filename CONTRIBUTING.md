@@ -1,9 +1,9 @@
 ### Contributing ###
 
-Thank you for your interest in `profiler-demo-app`, an open source project
+Thank you for your interest in `profiling-app`, an open source project
 administered by StrongLoop.
 
-Contributing to `profiler-demo-app` is easy. In a few simple steps:
+Contributing to `profiling-app` is easy. In a few simple steps:
 
   * Ensure that your effort is aligned with the project's roadmap by
     talking to the maintainers, especially if you are going to spend a
@@ -14,7 +14,7 @@ Contributing to `profiler-demo-app` is easy. In a few simple steps:
   * Adhere to code style outlined in the [Google C++ Style Guide][] and
     [Google Javascript Style Guide][].
 
-  * Sign the [Contributor License Agreement](https://cla.strongloop.com/strongloop/profiler-demo-app)
+  * Sign the [Contributor License Agreement](https://cla.strongloop.com/agreements/strongloop/profiler-demo-app)
 
   * Submit a pull request through Github.
 
