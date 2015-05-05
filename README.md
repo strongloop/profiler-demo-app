@@ -34,25 +34,6 @@ You can collect CPU and Heap profiling data using the slc runctl
 command and Google Chrome tools. 
 See [slc runctl](http://docs.strongloop.com/display/SLC/slc+runctl) for more details.
 
-#### StrongOps hosted
-
-* Go to [register](http://strongloop.com/register) and enter your email address.
-* You'll immediately get an email from StrongLoop with a link.
-* Go to the URL in the email, choose a password, and agree to the 
-Terms of Use.  Enter additional account details if you want to.
-
-Generate StrongOps configuration.
-
-    $ slc strongops
-
-Run the app.
-
-    $ slc run --cluster 2
-
-Run the load generator script.
-
-    $ node loadtest.js
-
 ##### CPU Profiler
 
 Click on the CPU Profiler tab. Select the app named profiler-app and 
