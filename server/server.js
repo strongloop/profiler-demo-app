@@ -32,6 +32,7 @@ app.use(loopback.errorHandler());
 app.start = function() {
   // start the web server
   return app.listen(function() {
+    PORT = app.get('port');
     app.emit('started');
     console.log('Web server listening at: %s', app.get('url'));
   });

@@ -1,11 +1,13 @@
 var loadtest = require('loadtest');
 
-var max_requests = 100000
+var max_requests = 1000
 var concurrency = 10
+var host = "ec2-52-8-177-89.us-west-1.compute.amazonaws.com"
+var port = "3001"
 
 // Run high loads of this request to burn cpu.
 var add_docs = {
-    url: 'http://localhost:' + 3000 + '/api/documents',
+    url: 'http://' + host + ':' + port + '/api/documents',
     maxRequests: max_requests,
     concurrency: concurrency,
     method: 'POST',
@@ -16,7 +18,6 @@ var add_docs = {
 
 loadtest.loadTest(add_docs, function(error, result)
 {
-    console.log(error);
     if (error)
     {
         return console.error('Got an error: %s', error);
@@ -31,7 +32,7 @@ loadtest.loadTest(add_docs, function(error, result)
 // the 'Documents' object.  
 
 var add_content = {
-    url: 'http://localhost:3000/api/documents/content',
+    url: 'http://' + host + ':' + port + '/api/documents/content',
     maxRequests: max_requests,
     concurrency: concurrency,
     method: "POST",
