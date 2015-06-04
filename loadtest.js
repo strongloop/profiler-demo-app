@@ -1,6 +1,6 @@
 var loadtest = require('loadtest');
 
-var max_requests = 1000
+var max_requests = 100000
 var concurrency = 10
 var host = "ec2-52-8-177-89.us-west-1.compute.amazonaws.com"
 var port = "3001"
