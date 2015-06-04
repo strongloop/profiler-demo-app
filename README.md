@@ -26,7 +26,7 @@ Run the app.
     $ slc run --cluster 2
 
     
-Run the load generator script.
+Run the load generator script. Update the host and port in loadtest.js. 
 
     $ node loadtest.js
     
