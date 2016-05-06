@@ -1,3 +1,8 @@
+// Copyright IBM Corp. 2014,2015. All Rights Reserved.
+// Node module: profiling-app
+// This file is licensed under the MIT License.
+// License text available at https://opensource.org/licenses/MIT
+
 var loadtest = require('loadtest');
 
 var max_requests = 100000

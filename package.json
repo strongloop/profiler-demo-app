@@ -32,5 +32,6 @@
     "loopback-explorer",
     "mathjs",
     "serve-favicon"
-  ]
+  ],
+  "license": "MIT"
 }
